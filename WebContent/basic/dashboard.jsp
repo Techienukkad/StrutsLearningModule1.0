@@ -5,12 +5,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Dashboard</title>
 </head>
 <body>
-<s:form action="FirstStrutsAction">
-<s:textfield name="user" label="UserName"/>
-<s:submit value="Welcome"/>
-</s:form>
+Hello <s:property value="user"/>
+Welcome to Struts!
 </body>
 </html>
